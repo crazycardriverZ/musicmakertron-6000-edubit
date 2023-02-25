@@ -8,7 +8,7 @@ input.onButtonPressed(Button.A, function () {
         # # # # #
         # . # . #
         `)
-    basic.pause(5000)
+    basic.pause(4000)
     for (let index = 0; index < 4; index++) {
         music.playTone(950, music.beat(BeatFraction.Whole))
         music.playTone(700, music.beat(BeatFraction.Whole))
